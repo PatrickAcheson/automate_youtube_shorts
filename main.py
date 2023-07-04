@@ -1,5 +1,7 @@
 import os
 import shutil
+import schedule
+import time
 from download_insta import download
 from make_compilation import makeCompilation
 from upload_video import upload
@@ -8,7 +10,7 @@ def create_directory(directory):
     if not os.path.exists(directory):
         os.makedirs(directory)
 
-def main(length, output_dir, download_dir):
+def job(length, output_dir, download_dir):
     # Create necessary directories
     create_directory(download_dir)
     create_directory(output_dir)
@@ -33,4 +35,11 @@ if __name__ == "__main__":
     length = 5
     output_dir = "./videos"
     download_dir = "./downloads"
-    main(length, output_dir, download_dir)
+
+    # Schedule the job to run once a day
+    schedule.every().day.do(job, length, output_dir, download_dir)
+
+    # Keep the script running
+    while True:
+        schedule.run_pending()
+        time.sleep(1)
