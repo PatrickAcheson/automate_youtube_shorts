@@ -34,6 +34,6 @@ This project contains code to run a fully automated YouTube channel that can scr
 
 9. **Run the Script**
 
-   Run `python3 main.py` in your terminal or command prompt. The script will start scraping videos from the Instagram accounts you follow, convert them into YouTube shorts, and upload them to your YouTube channel.
+   Run `python3 main.py` in your terminal or command prompt. Every 24 hours, the script will start scraping videos from the Instagram accounts, convert them into YouTube shorts, and upload them to your YouTube channel.
 
 Enjoy your fully automated Instagram to YouTube shorts channel! Note that you can edit variables inside `main.py` to customize things such as the maximum clip length. Have fun!
