@@ -18,7 +18,7 @@ This project contains code to run a fully automated YouTube channel that can scr
 
 4. **Setup Instagram Account**
 
-   Create an Instagram account and follow the accounts you want to scrape videos from.
+   Create an Instagram account and add all the accounts you like into the `accounts.txt`
 
 5. **Configure Instagram Credentials**
 
