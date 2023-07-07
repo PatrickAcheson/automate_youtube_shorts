@@ -39,5 +39,6 @@ This project contains code to run a fully automated YouTube channel that can scr
 Known Issues: 
 - sending to many requests will results in a '429 - Too Many Requests' error in the cli - this seems to be a temp ban of 24 hours.
 - Additionaly, make sure you are logged out of instagram when running the script or you will likely get an error.
+- Google Chrome Beta needs to be closed before running the script.
 
 Enjoy your fully automated Instagram to YouTube shorts channel! Note that you can edit variables inside `main.py` to customize things such as the maximum clip length. Have fun!
