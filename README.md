@@ -18,7 +18,7 @@ This project contains code to run a fully automated YouTube channel that can scr
 
 4. **Setup Instagram Account**
 
-   Create an Instagram account and add all the accounts you like into the `accounts.txt`
+   Create an Instagram account and add all the accounts you like into the `accounts.txt`.
 
 5. **Configure Instagram Credentials**
 
@@ -35,5 +35,7 @@ This project contains code to run a fully automated YouTube channel that can scr
 9. **Run the Script**
 
    Run `python3 main.py` in your terminal or command prompt. Every 24 hours, the script will start scraping videos from the Instagram accounts, convert them into YouTube shorts, and upload them to your YouTube channel.
+
+NOTE: sending to many requests will results in a '429 - Too Many Requests' error in the cli - this seems to be a temp ban of 24 hours.
 
 Enjoy your fully automated Instagram to YouTube shorts channel! Note that you can edit variables inside `main.py` to customize things such as the maximum clip length. Have fun!
