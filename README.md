@@ -2,7 +2,7 @@
 
 This project contains code to run a fully automated YouTube channel that can scrape video content from Instagram, convert them into YouTube shorts, and upload them daily to your YouTube channel.
 
-#INSTALOADER IS BROKEN - download_insta.py wont work
+## INSTALOADER IS BROKEN - download_insta.py wont work ##
 
 ## Instructions
 
