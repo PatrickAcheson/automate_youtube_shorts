@@ -36,10 +36,12 @@ if __name__ == "__main__":
     output_dir = "./videos"
     download_dir = "./downloads"
 
+    job(length, output_dir, download_dir)
+
     # Schedule the job to run once a day
-    schedule.every().day.do(job, length, output_dir, download_dir)
+    #schedule.every().day.do(job, length, output_dir, download_dir)
 
     # Keep the script running
-    while True:
-        schedule.run_pending()
-        time.sleep(1)
+    #while True:
+        #schedule.run_pending()
+        #time.sleep(1)
