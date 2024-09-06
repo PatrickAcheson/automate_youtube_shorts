@@ -2,7 +2,7 @@
 
 This project contains code to run a fully automated YouTube channel that can scrape video content from Instagram, convert them into YouTube shorts, and upload them daily to your YouTube channel.
 
-## INSTALOADER IS BROKEN - download_insta.py wont work ##
+## Working again in 2024 ##
 
 ## Instructions
 
@@ -39,7 +39,6 @@ This project contains code to run a fully automated YouTube channel that can scr
    Run `python3 main.py` in your terminal or command prompt. Every 24 hours, the script will start scraping videos from the Instagram accounts, convert them into YouTube shorts, and upload them to your YouTube channel.
 
 Known Issues: 
-- Sending to many requests will results in a '429 - Too Many Requests' error in the cli - this seems to be a temp ban of 24 hours.
 - Additionaly, make sure you are logged out of instagram when running the script or you will likely get an error.
 - Google Chrome Beta needs to be closed before running the script.
 
